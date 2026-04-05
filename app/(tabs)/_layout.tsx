@@ -20,7 +20,7 @@ const TabIcon = ({focused, icon}:TabIconProps) =>{
 }
 
 const TabLayout = () => {
-    const insects = useSafeAreaInsets();
+    const insets = useSafeAreaInsets();
 
     return(
         <Tabs
@@ -29,7 +29,7 @@ const TabLayout = () => {
                 tabBarShowLabel: false,
                 tabBarStyle: {
                     position: 'absolute',
-                    bottom : Math.max(insects.bottom, tabBar.horizontalInset ),
+                    bottom : Math.max(insets.bottom, tabBar.horizontalInset ),
                     marginHorizontal: tabBar.horizontalInset,
                     borderRadius:tabBar.radius,
                     backgroundColor: colors.primary,
