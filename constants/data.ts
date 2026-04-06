@@ -8,7 +8,7 @@ export const tabs: AppTab[] = [
 ];
 
 export const HOME_USER = {
-    name: "Eureka T&F FZE LLC",
+    name: "Eureka T&F",
 };
 
 export const HOME_BALANCE = {

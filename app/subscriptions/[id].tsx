@@ -5,10 +5,10 @@ import {Link, useLocalSearchParams} from "expo-router";
 const SubscriptionsDetails =()=>{
     const {id} = useLocalSearchParams<{id:string}>();
     return(
-        <view>
+        <View>
             <Text>Subscription details</Text>
             <Link href="/">Go Back</Link>
-        </view>
+        </View>
     )
 }
 
